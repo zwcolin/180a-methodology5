@@ -26,7 +26,7 @@ USER jovyan
 
 # RUN conda install -y scikit-learn
 
-RUN pip install networkx scipy torch transformers datasets
+RUN pip install networkx scipy transformers datasets
 
 # Override command to disable running jupyter notebook at launch
 # CMD ["/bin/bash"]
